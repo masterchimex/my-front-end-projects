@@ -1,0 +1,162 @@
+*{
+    margin: auto;
+    padding: auto;
+  }
+
+ .main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #596EE1;
+  }
+
+  .main img {
+    width: 40%;
+    height: 40%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+  h1{
+    font-weight: bold;
+  }
+
+  .one{
+    background-color: #4169E1;
+    display: flex;
+    flex-direction: column;
+    margin-right: 0px;
+    width: 50%;
+    height: 450px;
+    color: white;
+    font-family: 'Calibri';
+    padding-top: 50px;
+  }
+
+  .button2 {
+    background-color: transparent;
+    border: none;
+    border-radius: 30px;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 12px;
+    padding-left: 5px;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #ffffff;
+  }
+
+  .button2-icon {
+    background-color: #f8f9fc;
+    border-radius: 50%;
+    color: #090681;
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+    margin-left: 5px;
+    padding: 5px;
+    text-align: center;
+    width: 20px;
+  }
+
+  .two{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    height: 478px;
+    color: #2B60DE;
+    font-family: 'Calibri';
+    padding-top: 20px;
+  }
+
+  #email {
+    text-align: center;
+    font-size: 15px;
+  }
+
+  #password {
+    text-align: center;
+    font-size: 15px;
+  }
+  
+  #email::placeholder {
+    font-size: 10px;
+  }
+
+  #password::placeholder {
+    font-size: 10px;
+  }
+
+  input[type="email"]#email {
+    border: none;
+    border-bottom: 1px solid #2B60DE;
+    outline: none; 
+  }
+
+  input[type="password"]#password {
+    border: none;
+    border-bottom: 1px solid #2B60DE;
+    outline: none; 
+  }
+
+  .button {
+    background-color: #2B60DE;
+    border: none;
+    border-radius: 50px;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    padding-left: 90px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .button-icon {
+    background-color: #2B60DE;
+    border-radius: 50%;
+    color: #ffffff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    margin: 0px 0px 0px 70px;
+  }
+
+  .button:hover {
+    background-color: #8b3d1e;
+  }
+
+  .button1 {
+    background-color: #ffffff;
+    border: 1px solid #2B60DE;
+    border-radius: 50px;
+    color: #2B60DE;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    padding-left: 60px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .button3-icon {
+    background-color: #2B60DE;
+    border-radius: 50%;
+    color: #ffffff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    margin: 0px 0px 0px 40px;
+  }
+
+  .button1:hover {
+    background-color: #2B60DE;
+    color: white;
+  }

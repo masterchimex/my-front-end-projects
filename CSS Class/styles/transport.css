@@ -1,0 +1,147 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.upper {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../images/IMG-20230512-WA0016.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+.centre {
+  width: 80vw;
+}
+header {
+  justify-content: space-between;
+  height: 15vh;
+  color: white;
+  align-items: center;
+  display: flex;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 30vw;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  cursor: progress;
+  color: gold;
+}
+.circle {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background-color: orange;
+  justify-content: center;
+}
+.left {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+.hold {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-top: 20vh;
+}
+.triangle {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid white;
+}
+/* .wink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 5vw;
+  height: 2vw;
+  border-radius: 25%;
+  color: white;
+} */
+.wack {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15vw;
+  margin-right: 5px;
+}
+.easy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15vw;
+  margin: 10px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 40vw;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 50vw;
+}
+label {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+input[type="text"] {
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+.form button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: progress;
+  width: 40vw;
+}
+.lower {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ccc;
+  margin-top: 50px;
+  height: 20vh;
+}
+.lower label {
+  margin-bottom: 100px;
+}
+.lower button {
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  color: gold;
+  background-color: #4caf50;
+}
+.lower button:focus {
+  outline: none;
+  border-color: #888;
+  box-shadow: 0 0 5px #888;
+}

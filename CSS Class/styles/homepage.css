@@ -1,0 +1,100 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+header {
+  height: 10vh;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* width: 100vw; */
+}
+header div {
+  width: 70vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header div p {
+  color: #748489;
+}
+nav {
+  display: flex;
+  width: 30vw;
+  justify-content: space-between;
+  align-items: center;
+}
+nav a {
+  color: #343434;
+  text-decoration: none;
+  font-weight: 600;
+}
+nav button {
+  width: 120px;
+  height: 30px;
+}
+.btn {
+  background-color: #f47b4e;
+  color: white;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.592) 0px 4px 4px;
+}
+/* ....................................BODY SECTION............................................. */
+.body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  background-color: #a9d1dd;
+}
+.body_Fchild {
+  width: 70vw;
+  display: flex;
+  align-items: center;
+}
+
+.body_Fchild img {
+  height: 90vh;
+  width: 35vw;
+}
+.besides {
+  width: 35vw;
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  justify-content: center;
+}
+.besides h1 {
+  color: white;
+  font-size: 30px;
+  font-weight: bolder;
+  line-height: 40px;
+}
+.besides b {
+  color: #343434;
+  line-height: 30px;
+  margin: 11px 0px;
+}
+.besides button {
+  height: 40px;
+  width: 300px;
+}
+/* ................................FOOTER SECTION.......................................... */
+footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  line-height: 25px;
+  height: 30vh;
+  text-align: center;
+}
+footer h3 {
+  color: #343434;
+  font-weight: bolder;
+}
+footer small {
+  color: #748489;
+  font-weight: 600;
+}

@@ -1,0 +1,64 @@
+.container {
+    display: flex;
+    margin: 0 auto;
+    height: 100%;
+    padding: 20px;
+    background-color: blue;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .welcome{
+    width: 50%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-content: center;
+  }
+
+  .signin{
+    width: 50%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #80a045;
+  }
+
+  .circle {
+    width: 300px;
+    height: 300px;
+  }
+  .circle img {
+    width: 100%;
+    border-radius: 50%;}

@@ -1,0 +1,198 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.welcome {
+  background: url(../images/man.jpg);
+  height: 120vh;
+  background-size: cover;
+}
+
+header {
+  display: flex;
+  height: 10vh;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  box-shadow: rgba(4, 4, 4, 0.707) 0px 2px 8px 0px;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+nav {
+  display: flex;
+  width: 30vw;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  margin-top: 20px;
+  background-color: rgb(37, 37, 37);
+  width: fit-content;
+  padding: 5px;
+  margin-left: -50px;
+}
+
+.Instagram:hover .one {
+  display: block;
+}
+
+.Facebook:hover .two {
+  display: block;
+}
+.Twitter:hover .three {
+  display: block;
+}
+
+/* ..........................Photo Section........................ */
+
+#photos {
+  height: 140vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.photos_section {
+  display: flex;
+}
+
+#photos div {
+  margin-bottom: 60px;
+  width: 35vw;
+  margin-left: 100px;
+}
+
+.h1 {
+  font-size: 50px;
+  font-weight: 500;
+  color: blue;
+  margin-bottom: 30px;
+}
+
+#photos img:hover {
+  opacity: 0.7;
+  transition: 2s;
+}
+
+/* ...........................Street Section...................... */
+
+.street {
+  background: url(../images/street.jpg);
+  height: 80vh;
+  background-size: cover;
+}
+
+/* .......................Service Section...................... */
+
+#services {
+  display: flex;
+  height: 60vh;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.what_i_do_sec {
+  width: 30vw;
+}
+
+.service {
+  width: 40vw;
+}
+
+.service div {
+  display: flex;
+  width: inherit;
+}
+
+.service h5 {
+  color: blue;
+  width: 20vw;
+  height: 40px;
+  margin-top: -50px;
+  text-align: center;
+  font-weight: 100;
+}
+
+.photo {
+  border-bottom: 2px solid blue;
+}
+
+.service h1 {
+  color: blue;
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 80px;
+}
+
+/* ........................ Stars Section.......................  */
+
+.stars {
+  height: 60vh;
+  background: url(../images/stars.jpg);
+  background-size: cover;
+}
+
+/* ..........................Contact Section.................... */
+
+#contact {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80vh;
+}
+
+.get_in_touch {
+  width: 30vw;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 50vh;
+  width: 25vw;
+}
+
+form div {
+  width: inherit;
+}
+
+form input {
+  border: none;
+  border-bottom: 1px solid grey;
+}
+
+input[type="email"],
+input[type="text"] {
+  width: 23vw;
+  height: 35px;
+}
+
+.label {
+  color: gray;
+}
+
+button {
+  background-color: rgb(33, 184, 184);
+  border: none;
+  padding: 10px 20px;
+  width: fit-content;
+  color: white;
+  margin: 0px auto;
+}

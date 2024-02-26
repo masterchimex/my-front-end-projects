@@ -1,0 +1,139 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+main {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  text-align: center;
+  background-color: whitesmoke;
+  height: 100vh;
+  width: 100%;
+}
+
+.content {
+  display: flex;
+  height: 80vh;
+  width: 90%;
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 100px;
+}
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  background-image: url(../images/IMG-20230510-WA0004.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.welcome h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  color: white;
+}
+
+#align {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  height: 10vh;
+  margin-top: 30vh;
+  color: white;
+}
+
+.login {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  background-color: white;
+  background-size: cover;
+  height: inherit;
+}
+/* form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 400px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+} */
+
+label {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 30vw;
+  outline: none;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid #4c4eaf;
+  border-left: 5px solid blue;
+  font-size: 16px;
+}
+
+.login h1 {
+  color: blue;
+  margin-top: 30px;
+  font-size: x-large;
+  font-weight: bolder;
+}
+
+.login p {
+  margin-top: -15%;
+  color: wheat;
+}
+
+button[type="submit"] {
+  background-color: #4c4eaf;
+  color: white;
+  border: none;
+  padding: 10px 35%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: 35px;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
+p {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 20%;
+}
+/* #pie {
+  display: inline-flex;
+  text-align: justify;
+} */
